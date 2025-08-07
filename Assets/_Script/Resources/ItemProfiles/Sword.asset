@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927fc6c578c227f46a5e75cb5d4b7555, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemCode: 3
+  itemType: 2
+  itemName: Sword
+  maxStackDefault: 1
+  upgradeLevelRequired:
+  - ingredients:
+    - itemProfileSO: {fileID: 11400000, guid: 845f791e05da8f042b7fac8654bd6981, type: 2}
+      itemCount: 4
+  - ingredients:
+    - itemProfileSO: {fileID: 11400000, guid: 845f791e05da8f042b7fac8654bd6981, type: 2}
+      itemCount: 4
+    - itemProfileSO: {fileID: 11400000, guid: eefcba9f201796c4eb143ca840209173, type: 2}
+      itemCount: 4
+  - ingredients:
+    - itemProfileSO: {fileID: 11400000, guid: 845f791e05da8f042b7fac8654bd6981, type: 2}
+      itemCount: 8
+    - itemProfileSO: {fileID: 11400000, guid: eefcba9f201796c4eb143ca840209173, type: 2}
+      itemCount: 8
