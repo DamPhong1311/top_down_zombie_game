@@ -17,10 +17,12 @@ MonoBehaviour:
   hpMax: 3
   dropList:
   - itemSO: {fileID: 11400000, guid: eefcba9f201796c4eb143ca840209173, type: 2}
-    dropRate: 0
-    minDrop: 0
-    maxDrop: 0
+    dropRate: 1
   - itemSO: {fileID: 11400000, guid: 845f791e05da8f042b7fac8654bd6981, type: 2}
-    dropRate: 0
-    minDrop: 0
-    maxDrop: 0
+    dropRate: 1
+  - itemSO: {fileID: 11400000, guid: c6030e61a8acd574ea0d5e00db7d9b0c, type: 2}
+    dropRate: 0.05
+  - itemSO: {fileID: 11400000, guid: eefcba9f201796c4eb143ca840209173, type: 2}
+    dropRate: 0.5
+  - itemSO: {fileID: 11400000, guid: 845f791e05da8f042b7fac8654bd6981, type: 2}
+    dropRate: 0.5
