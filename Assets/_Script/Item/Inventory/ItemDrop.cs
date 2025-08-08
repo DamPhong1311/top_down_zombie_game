@@ -28,7 +28,7 @@ public class ItemDrop : MonoBehaviour
         InventoryItem inventoryItem = inventory.inventoryItems[index];
         
 
-        ItemDropSpawner.Instance.Drop(inventoryItem, pos, rot);
+        ItemDropSpawner.Instance.DropFromInventory(inventoryItem, pos, rot);
         inventory.inventoryItems.Remove(inventory.inventoryItems[index]);
     }
 }

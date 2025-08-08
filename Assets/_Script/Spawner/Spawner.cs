@@ -8,7 +8,7 @@ public abstract class Spawner : MonoBehaviour
 {
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolObjs;
-    [SerializeField] protected Transform holder;
+    [SerializeField] public Transform holder;
 
     protected void Reset()
     {

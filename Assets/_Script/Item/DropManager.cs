@@ -14,7 +14,7 @@ public class DropManager : MonoBehaviour
         DropManager.instance = this;
     }
 
-    public virtual void Drop(List<DropRate> dropList){
+    public virtual void DropFromInventory(List<ItemDropRate> dropList){
         Debug.Log(dropList[0].itemSO.itemName);
     }
 }

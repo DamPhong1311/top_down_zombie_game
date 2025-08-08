@@ -14,6 +14,7 @@ public class InputManager : MonoBehaviour
   
 
     [SerializeField] private float getShootInput;  public float GetShootInput { get => getShootInput; }
+    [SerializeField] private float ultimate;  public float Ultimate { get => ultimate; }
     void Awake()
     {
         if (InputManager.instance != null) Debug.LogError("Only one InputManager is allowed to exist.");
@@ -41,5 +42,6 @@ public class InputManager : MonoBehaviour
         movement = movement.normalized;
 
         getShootInput = Input.GetAxisRaw("Fire1");
+        ultimate = Input.GetAxisRaw("PressX");
     }
 }

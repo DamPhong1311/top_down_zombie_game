@@ -2,10 +2,10 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class DropRate
+public class ItemDropRate
 {
     public ItemProfileSO itemSO;
-    public int dropRate;
-    public int minDrop;
-    public int maxDrop;
+    public float dropRate;
+    // public int minDrop;
+    // public int maxDrop;
 }
